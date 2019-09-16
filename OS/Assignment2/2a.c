@@ -77,10 +77,10 @@ int main(int argc, char **argv)
   
             } 
 
-        args[0]="./p2";
+        args[0]="./a";
         args[1]=output;
         args[2]=NULL;
-        execv("./p2",args);
+        execv(args[0],args);
       
         
      }   
